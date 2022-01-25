@@ -33,7 +33,7 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         if (votes > largest_county_voter_turnout):
             largest_county_voter_turnout = votes
             largest_county = county_name
-            
+
     # 7: Print the county with the largest turnout to the terminal.
     county_with_largest_turnout_summary = (
         f"-------------------------\n"
