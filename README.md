@@ -11,7 +11,6 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 - How many votes were cast in this congressional election? 369,711
  To get this we first initalize a total vote counter (total_votes = 0) and then add to the total vote count (total_votes = total_votes + 1) and lastly we use the following code  to print the code to terminal or text file:
  
- # Print the final vote count (to terminal)
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
@@ -35,6 +34,7 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
   Winner: Diana DeGette, Winning Vote Count: 272,892, Winning Percentage: 73.8%
   
   Below is a screenshot of the results when the Python code is ran to the Terminal.
+  
   ![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
 
 
