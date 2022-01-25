@@ -27,7 +27,8 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
  Jefferson: 10.5% (38,855), Denver: 82.8% (306,055), Arapahoe: 6.7% (24,801)
  
   ### 6a: Write a for loop to get the county from the county dictionary.
-    for county_name in county_votes_dictionary:
+      for county_name in county_votes_dictionary:
+    
         #### 6b: Retrieve the county vote count.
         votes = county_votes_dictionary.get(county_name)
         #### 6c: Calculate the percentage of votes for the county.
