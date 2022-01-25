@@ -28,7 +28,6 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
  
   ### 6a: Write a for loop to get the county from the county dictionary.
     for county_name in county_votes_dictionary:
-    
         #### 6b: Retrieve the county vote count.
         votes = county_votes_dictionary.get(county_name)
         #### 6c: Calculate the percentage of votes for the county.
