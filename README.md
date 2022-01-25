@@ -18,3 +18,4 @@ Being new to Python, one of the biggest issues that myself and others at company
 ## Results
 
 
+![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
