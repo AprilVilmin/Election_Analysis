@@ -25,7 +25,20 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
  Jefferson: 10.5% (38,855), Denver: 82.8% (306,055), Arapahoe: 6.7% (24,801)
-      
+ 
+  ### 6a: Write a for loop to get the county from the county dictionary.
+    for county_name in county_votes_dictionary:
+        #### 6b: Retrieve the county vote count.
+        votes = county_votes_dictionary.get(county_name)
+        #### 6c: Calculate the percentage of votes for the county.
+        vote_percentage = float(votes) / float(total_votes) * 100
+        county_results = (
+        f"{county_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
+         #### 6d: Print the county results to the terminal.
+        print(county_results)
+         #### 6e: Save the county votes to a text file.
+        txt_file.write(county_results)
 - Which county had the largest number of votes? Denver
   To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code contining the if statement:
   
