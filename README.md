@@ -27,21 +27,13 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
  Jefferson: 10.5% (38,855), Denver: 82.8% (306,055), Arapahoe: 6.7% (24,801)
       
 - Which county had the largest number of votes? Denver
-  To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code contining the if statement and print information:
+  To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code contining the if statement:
   
   #### 6f: Write an if statement to determine the winning county and get its vote count.
         if (votes > largest_county_voter_turnout):
             largest_county_voter_turnout = votes
             largest_county = county_name
 
-    # 7: Print the county with the largest turnout to the terminal.
-    county_with_largest_turnout_summary = (
-        f"-------------------------\n"
-        f"Largest County Turnout: {largest_county}\n"
-        f"-------------------------\n")
-    print(county_with_largest_turnout_summary)
-  
- 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
   Charles Casper Stockham: 23.0% (85,213), Diana DeGette: 73.8% (272,892), Raymon Anthony Doane: 3.1% (11,606)
       
