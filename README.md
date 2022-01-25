@@ -35,6 +35,7 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         vote_percentage = float(votes) / float(total_votes) * 100
         county_results = (
         f"{county_name}: {vote_percentage:.1f}% ({votes:,})\n")
+        
         #### 6d: Print the county results to the terminal.
         print(county_results)
         #### 6e: Save the county votes to a text file.
