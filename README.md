@@ -39,6 +39,7 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         print(county_results)
          #### 6e: Save the county votes to a text file.
         txt_file.write(county_results)
+        
 - Which county had the largest number of votes? Denver
   To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code contining the if statement:
   
