@@ -19,12 +19,15 @@ Company XYZ has been hired to aid Tom in creating a Python script to help audit 
       
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   Winner: Diana DeGette, Winning Vote Count: 272,892, Winning Percentage: 73.8%
+  
+  ![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
 
-##Election Audit Summary
+
+## Election Audit Summary
 
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
-Deliverable 3 
+
 
 ### Purpose
 
@@ -40,4 +43,3 @@ Being new to Python, one of the biggest issues that myself and others at company
 ## Results
 
 
-![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
