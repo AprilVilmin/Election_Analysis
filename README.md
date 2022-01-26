@@ -126,13 +126,11 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
   
 
 ## Election Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
 This script with modifications can be modified to audit anything from PTO to presidential elections and from the prom court to the county fair royalty. 
-
-
-### Challenges and Difficulties Encountered
-Being new to Python, one of the biggest issues that myself and others at company XYZ faced was troubleshooting issues found. It was nice when the code editor would tell you what line the error was on, but sometimes the error would be caused by something on another line. There were other times when the issue wouldn't throw an error, but it was obvious that one was there when you compared it to the expected results on the challenge.
 1. Columns could be added, and others removed in the table (Excel spreadsheet) so that this could be used to work for a school board election. To do this you would need to be able to create new lists, dictionaries, etc. depending on the output you want.
 2. You could also make the Python script more complicated by adding columns and expected outcomes for every position on the ballet being cast, no matter the jurisdiction. For example, the president, a governor, congress, a judge and school board member may all appear on the same ballot, but all represent different geographic/demographic areas. In doing this you would need to create new lists, dictionaries, etc. Depending on the number of position types being filled on the ballot. The code could become very long.
+
+### Challenges and Difficulties Encountered
+Being new to Python, one of the biggest issues that myself and others at company XYZ faced was troubleshooting issues found. It was nice when the code editor would tell you what line the error was on, but sometimes the error would be caused by something on another line. There were other times when the issue wouldn't throw an error, but it was obvious that one was there when you compared it to the expected results on the challenge. I also find it hard to get code snippets to appear correctly in Git Hub,
+
 
