@@ -2,14 +2,14 @@
 
 
 ## Overview of Election Audit
-Company XYZ has been hired to aid Tom in creating a Python script to help audit of a Colorado congressional district. Company XYZ has been tasked with writing code for many metrics in Python including, but not limited to: counting the number of votes, the percentage of votes for each candidate, the number of votes for each candidate, and the winner, the county with the most votes, the number of votes per county and the percentage of votes per county. We originally looked at cadidate metrics, but Tom's manager liked that data so much, he know wants us to look at county metrics. This has been done in Excel in the past, but Tom's manager wants to look at doing it automatically in the future. If this is successful it will be used in our districts and other types of elections in the future.
+Company XYZ has been hired to aid Tom in creating a Python script to help audit of a Colorado congressional district. Company XYZ has been tasked with writing code for many metrics in Python including, but not limited to counting the number of votes, the percentage of votes for each candidate, the number of votes for each candidate, and the winner, the county with the most votes, the number of votes per county and the percentage of votes per county. We originally looked at candidate metrics, but Tom's manager liked that data so much, he now wants us to look at county metrics. This has been done in Excel in the past, but Tom's manager wants to look at doing it automatically in the future. If this is successful it will be used in our districts and other types of elections in the future.
 
 
 ## Election Audit Results
 
 Using Python Tom and Company XYZ were able to give concise answers to the following questions:
 - How many votes were cast in this congressional election? 369,711
- To get this we first initalize a total vote counter (total_votes = 0) and then add to the total vote count (total_votes = total_votes + 1) and lastly we use the following code  to print the code to terminal or text file:
+ To get this we first initialize a total vote counter (total_votes = 0) and then add to the total vote count (total_votes = total_votes + 1) and lastly, we use the following code to print the code to terminal or text file:
  
        election_results = (
           f"\nElection Results\n"
@@ -40,7 +40,7 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         txt_file.write(county_results)
         
 - Which county had the largest number of votes? Denver
-  To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code contining the if statement:
+  To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code containing the if statement:
   
         if (votes > largest_county_voter_turnout):
             largest_county_voter_turnout = votes
@@ -64,7 +64,7 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         # Add a vote to that candidate's count
         candidate_votes[candidate_name] += 1
         
-   Then we need to get the vote count by candidate and the percentage by candidate and then print to the terminal and prtint to the text file.
+   Then we need to get the vote count by candidate and the percentage by candidate and then print to the terminal and print to the text file.
    
       for candidate_name in candidate_votes:
 
@@ -128,10 +128,11 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 ## Election Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
-
+This script with modifications can be modified to audit anything from PTO to presidential elections and from the prom court to the county fair royalty. 
 
 
 ### Challenges and Difficulties Encountered
-Being new to Python, one of the biggest issues that myself and others at company XYZ faced was troubleshooting issues found. It was nice when the code editor would tell you what line the error was on, but sometimes the error would be caused by something on another line. There were other times when the issue wouldn't throw an error, but it was obvious that one was there when you compared it to the exepected results on the challenge.
-d
+Being new to Python, one of the biggest issues that myself and others at company XYZ faced was troubleshooting issues found. It was nice when the code editor would tell you what line the error was on, but sometimes the error would be caused by something on another line. There were other times when the issue wouldn't throw an error, but it was obvious that one was there when you compared it to the expected results on the challenge.
+1. Columns could be added, and others removed in the table (Excel spreadsheet) so that this could be used to work for a school board election. To do this you would need to be able to create new lists, dictionaries, etc. depending on the output you want.
+2. You could also make the Python script more complicated by adding columns and expected outcomes for every position on the ballet being cast, no matter the jurisdiction. For example, the president, a governor, congress, a judge and school board member may all appear on the same ballot, but all represent different geographic/demographic areas. In doing this you would need to create new lists, dictionaries, etc. Depending on the number of position types being filled on the ballot. The code could become very long.
 
