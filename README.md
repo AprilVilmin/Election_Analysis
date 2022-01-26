@@ -83,11 +83,32 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   Winner: Diana DeGette, Winning Vote Count: 272,892, Winning Percentage: 73.8%
   
+  To do this we need to determine the winning candidate, winning vote count and winning percentage, we then need to print this information to the terminal and to the text file.
+  
+  # Determine winning vote count, winning percentage, and candidate.
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            winning_count = votes
+            winning_candidate = candidate_name
+            winning_percentage = vote_percentage
+
+    # Print the winning candidate (to terminal)
+    winning_candidate_summary = (
+        f"-------------------------\n"
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"-------------------------\n")
+    print(winning_candidate_summary)
+
+    # Save the winning candidate's name to the text file
+    txt_file.write(winning_candidate_summary)
+
+  
   Below is a screenshot of the results when the Python code is ran to the Terminal.
   
-  
-  
   ![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
+  
+  Below are screenshots of all the code:
 
 
 ## Election Audit Summary
