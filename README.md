@@ -18,9 +18,9 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         f"Total Votes: {total_votes:,}\n"
         f"-------------------------\n\n"
         f"County Votes:\n")
-    print(election_results, end="")
+   print(election_results, end="")
 
-    txt_file.write(election_results)
+   txt_file.write(election_results)
 
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
