@@ -85,23 +85,23 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
   
   To do this we need to determine the winning candidate, winning vote count and winning percentage, we then need to print this information to the terminal and to the text file.
   
-     # Determine winning vote count, winning percentage, and candidate.
-           if (votes > winning_count) and (vote_percentage > winning_percentage):
-               winning_count = votes
-               winning_candidate = candidate_name
-               winning_percentage = vote_percentage
+      # Determine winning vote count, winning percentage, and candidate.
+            if (votes > winning_count) and (vote_percentage > winning_percentage):
+                winning_count = votes
+                winning_candidate = candidate_name
+                winning_percentage = vote_percentage
 
-       # Print the winning candidate (to terminal)
-       winning_candidate_summary = (
-           f"-------------------------\n"
-           f"Winner: {winning_candidate}\n"
-           f"Winning Vote Count: {winning_count:,}\n"
-           f"Winning Percentage: {winning_percentage:.1f}%\n"
-           f"-------------------------\n")
-       print(winning_candidate_summary)
+        # Print the winning candidate (to terminal)
+        winning_candidate_summary = (
+            f"-------------------------\n"
+            f"Winner: {winning_candidate}\n"
+            f"Winning Vote Count: {winning_count:,}\n"
+            f"Winning Percentage: {winning_percentage:.1f}%\n"
+            f"-------------------------\n")
+        print(winning_candidate_summary)
 
-       # Save the winning candidate's name to the text file
-       txt_file.write(winning_candidate_summary)
+        # Save the winning candidate's name to the text file
+        txt_file.write(winning_candidate_summary)
 
   
   Below is a screenshot of the results when the Python code is ran to the Terminal.
