@@ -42,7 +42,6 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 - Which county had the largest number of votes? Denver
   To get this we begin by tracking the lagest_county (largest_county = "") and largest_county_voter_turnout (largest_county_voter_turnout = 0), we then write an if statement for this and then print it to the terminal and text file. Below is a snippet of code contining the if statement:
   
-  #### 6f: Write an if statement to determine the winning county and get its vote count.
         if (votes > largest_county_voter_turnout):
             largest_county_voter_turnout = votes
             largest_county = county_name
