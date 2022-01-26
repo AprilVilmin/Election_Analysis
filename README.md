@@ -28,16 +28,16 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
  
  
       for county_name in county_votes_dictionary
-        #### 6b: Retrieve the county vote count.
+        # 6b: Retrieve the county vote count.
         votes = county_votes_dictionary.get(county_name)
-        #### 6c: Calculate the percentage of votes for the county.
+        # 6c: Calculate the percentage of votes for the county.
         vote_percentage = float(votes) / float(total_votes) * 100
         county_results = (
         f"{county_name}: {vote_percentage:.1f}% ({votes:,})\n")
         
-        #### 6d: Print the county results to the terminal.
+        # 6d: Print the county results to the terminal.
         print(county_results)
-        #### 6e: Save the county votes to a text file.
+        # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
         
 - Which county had the largest number of votes? Denver
