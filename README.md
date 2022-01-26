@@ -119,7 +119,8 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
   ![Code 6](https://github.com/AprilVilmin/Election_Analysis/blob/main/Code%206.png)
   
   Below are screenshots of all the code:
-    ![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
+  
+  ![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
 
 ## Election Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
