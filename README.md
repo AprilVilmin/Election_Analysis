@@ -11,16 +11,15 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 - How many votes were cast in this congressional election? 369,711
  To get this we first initalize a total vote counter (total_votes = 0) and then add to the total vote count (total_votes = total_votes + 1) and lastly we use the following code  to print the code to terminal or text file:
  
-     # Print the final vote count (to terminal)
        election_results = (
-        f"\nElection Results\n"
-        f"-------------------------\n"
-        f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n"
-        f"County Votes:\n")
-    print(election_results, end="")
+          f"\nElection Results\n"
+          f"-------------------------\n"
+          f"Total Votes: {total_votes:,}\n"
+          f"-------------------------\n\n"
+          f"County Votes:\n")
+       print(election_results, end="")
 
-    txt_file.write(election_results)
+       txt_file.write(election_results)
 
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
