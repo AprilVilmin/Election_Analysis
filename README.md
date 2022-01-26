@@ -66,19 +66,19 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         
    Then we need to get the vote count by candidate and the percentage by candidate and then print to the terminal and prtint to the text file.
    
-     for candidate_name in candidate_votes:
+      for candidate_name in candidate_votes:
 
-          # Retrieve vote count and percentage
-          votes = candidate_votes.get(candidate_name)
-          vote_percentage = float(votes) / float(total_votes) * 100
-          candidate_results = (
-              f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+           # Retrieve vote count and percentage
+           votes = candidate_votes.get(candidate_name)
+           vote_percentage = float(votes) / float(total_votes) * 100
+           candidate_results = (
+               f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
-          # Print each candidate's voter count and percentage to the
-          # terminal.
-          print(candidate_results)
-          #  Save the candidate results to our text file.
-          txt_file.write(candidate_results)
+           # Print each candidate's voter count and percentage to the
+           # terminal.
+           print(candidate_results)
+           #  Save the candidate results to our text file.
+           txt_file.write(candidate_results)
         
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   Winner: Diana DeGette, Winning Vote Count: 272,892, Winning Percentage: 73.8%
