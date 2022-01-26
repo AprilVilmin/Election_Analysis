@@ -50,11 +50,28 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
   Charles Casper Stockham: 23.0% (85,213), Diana DeGette: 73.8% (272,892), Raymon Anthony Doane: 3.1% (11,606)
-      
+  
+  To get this you need to first create a list (candidate_options = []) and a dictionary (candidate_votes = {}, then track the winning_candidate (winning_candidate = ""), winning_count (winning_count = 0), and winning_percentage (winning_percentage = 0), then get the candidate_name from each row (candidate_name = row[2]), if the candidate is not already in the list add it using the following logic:
+
+        # If the candidate does not match any existing candidate add it to
+        # the candidate list
+        if candidate_name not in candidate_options:
+
+            # Add the candidate name to the candidate list.
+            candidate_options.append(candidate_name)
+
+            # And begin tracking that candidate's voter count.
+            candidate_votes[candidate_name] = 0
+
+        # Add a vote to that candidate's count
+        candidate_votes[candidate_name] += 1
+        
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   Winner: Diana DeGette, Winning Vote Count: 272,892, Winning Percentage: 73.8%
   
   Below is a screenshot of the results when the Python code is ran to the Terminal.
+  
+  
   
   ![Module 3 Results Screenshot](https://github.com/AprilVilmin/Election_Analysis/blob/main/Module%203%20Results%20Screenshot.png)
 
