@@ -68,7 +68,6 @@ Using Python Tom and Company XYZ were able to give concise answers to the follow
         
    Then we need to get the vote count by candidate and the percentage by candidate and then print to the terminal and prtint to the text file.
    
-   # Save the final candidate vote count to the text file.
     for candidate_name in candidate_votes:
 
         # Retrieve vote count and percentage
